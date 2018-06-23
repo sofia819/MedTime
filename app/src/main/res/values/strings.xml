@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">MedTime</string>
+
+    <string name="date">1970-01-01</string>
+    <string name="back"> &lt; </string>
+    <string name="forward">&gt;</string>
+
+    <string name="menu_schedule">Schedule</string>
+    <string name="menu_doctor">Schedule</string>
+    <string name="menu_appointment">Schedule</string>
+    <string name="menu_pillbox">Schedule</string>
+    <string name="menu_report">Schedule</string>
 </resources>

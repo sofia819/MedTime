@@ -1,9 +1,11 @@
 package edu.wit.mobileapp.medtime;
 
+import android.support.design.internal.BottomNavigationMenuView;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Menu extends AppCompatActivity {
+public class Menu extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,4 +14,5 @@ public class Menu extends AppCompatActivity {
 
         // Testing if master branch merges successfully
     }
+
 }
