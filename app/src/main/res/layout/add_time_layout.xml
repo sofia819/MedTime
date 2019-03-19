@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/add_time_layout"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/time_added"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:ems="10"
+        android:hint="@string/add_time"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/remove"
+        android:onClick="onRemove"
+        android:layout_weight="0.6"/>
+
+</LinearLayout>

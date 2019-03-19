@@ -1,13 +1,48 @@
 <resources>
     <string name="app_name">MedTime</string>
 
-    <string name="date">1970-01-01</string>
-    <string name="back"> &lt; </string>
-    <string name="forward">&gt;</string>
+    <string name="med_name">Medication Name</string>
 
-    <string name="menu_schedule">Schedule</string>
-    <string name="menu_doctor">Schedule</string>
-    <string name="menu_appointment">Schedule</string>
-    <string name="menu_pillbox">Schedule</string>
-    <string name="menu_report">Schedule</string>
+    <string name="dosage_prompt">Dosage</string>
+    <string name="dosage_display">Dose(s)</string>
+    <string name="dosage_num">1</string>
+
+    <string name="appearance">Pill Appearance</string>
+    <string name="pill_color">Color</string>
+    <string name="pill_shape">Shape</string>
+
+    <string name="take_with_food">Take with food?</string>
+    <string name="with_food">Yes</string>
+    <string name="no_food">No</string>
+
+    <string name="med_schedule">Schedule</string>
+
+    <string name="interval_prompt">Interval</string>
+    <string name="interval_display">Day(s)</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+
+    <string name="add_time">Add Time</string>
+    <string name="add">Add New Time</string>
+    <string name="remove">Remove</string>
+
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear All</string>
+
+    <string name="save_warning">Are you sure you want to save?</string>
+    <string name="cancel_warning">Are you sure you want to cancel?</string>
+    <string name="clear_warning">Are you sure you want to clear all?</string>
+    <string name="delete_warning">Are you sure you want to delete?</string>
+
+    <string name="title_activity_schedule">MedTime</string>
+    <string name="title_activity_pill_box">Pill Box</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_pill_box">Pill Box</string>
+
+    <string name="go_to_pill_box">To Pill Box</string>
+    <string name="go_to_schedule">To Schedule</string>
+
+    <string name="add_pill">Add New Pill</string>
+    <string name="delete_pill">Delete Pill</string>
 </resources>

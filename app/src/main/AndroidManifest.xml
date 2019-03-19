@@ -9,17 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Schedule">
+        <activity
+            android:name=".AddPill"
+            android:windowSoftInputMode="adjustPan">
+
+
+        </activity>
+        <activity
+            android:name=".PillBox"
+            android:label="@string/title_pill_box">
+
+        </activity>
+        <activity
+            android:name=".Schedule"
+            android:label="@string/title_activity_schedule">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".Menu" />
-        <activity android:name=".Doctor" />
-        <activity android:name=".PillBox" />
-        <activity android:name=".Appointment"></activity>
     </application>
 
 </manifest>
